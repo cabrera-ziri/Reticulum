@@ -70,5 +70,5 @@ if __name__ == '__main__':
 	ax.set_xlabel('Wavelength [nm]',weight='bold')
 	ax.set_ylabel('Flux [adu]',weight='bold')
 	fig.tight_layout()
-	plt.legend(ncol=ncols)
+	plt.legend(ncol=ncol)
 	plt.show(block=True)
