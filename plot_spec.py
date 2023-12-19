@@ -61,7 +61,7 @@ if __name__ == '__main__':
 		print('reading from stdin...')
 		infiles = [i[:-1] for i in stdin.readlines()]
 	
-	fig, ax = plt.subplots(figsize=(14,8))
+	fig, ax = plt.subplots(figsize=(xsize,ysize))
 
 	print('plotting...')	
 	for file in infiles:
