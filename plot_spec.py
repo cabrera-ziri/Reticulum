@@ -52,7 +52,7 @@ def plotspec(ax,file):
 
 if __name__ == '__main__':	
 
-	from sys import stdin, argv, exit
+	from sys import stdin, argv
 
 	#print(argv,len(argv))
         
